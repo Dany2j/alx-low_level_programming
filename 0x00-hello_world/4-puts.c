@@ -1,4 +1,4 @@
-#incluse <stdio.h>
+#include <stdio.h>
 
 /**
  * Description: main - Prints outs a string using the put function only.
