@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Point of Sizes
+ * main - Entry point
  *
  * Return: 0
  */
