@@ -19,7 +19,7 @@ if (n > 0)
 {
 	printf("%i is positive\n", n);
 }
-else
+else if (n == 0)
 {
 	printf("%i is zero\n", n);
 }
