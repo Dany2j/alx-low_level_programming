@@ -3,11 +3,10 @@
 #include <stdio.h>
 
 /**
-* main - prints if the number is positive, zero, or negative
-* 
-* Description: using the main function
-* this program prints "Programming in positive, zero,or negative
-* Return: 0
+ * main - prints a number randomly and states whether
+ *	 it is positive, negative, or zero.
+ *
+ * Return: 0.
 */
 int main(void)
 {
@@ -15,12 +14,12 @@ int n;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-  /* your code goes there */
+
 if (n > 0)
 {
 	printf("%i is positive\n", n);
 }
-else if (n == 0)
+else
 {
 	printf("%i is zero\n", n);
 }
