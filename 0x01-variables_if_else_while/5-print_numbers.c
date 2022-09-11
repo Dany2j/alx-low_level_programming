@@ -1,16 +1,18 @@
 #include <stdio.h>
+
 /**
-* main - print numbers
-*
-* Return: 0
-*/
+ * main - Prints numbers
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-char ch;
-for (ch = 'a' ; ch <= 'z' ; ch++)
-{
-	putchar(ch);
-}
-putchar('\n');
-return (0);
+	int i;
+
+	for (i = 0; i < 10; i++)
+	{
+		printf("%i", i);
+	}
+	putchar('\n');
+	return (0);
 }
